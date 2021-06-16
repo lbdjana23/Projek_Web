@@ -11,21 +11,14 @@
 
 	<div class="kotak_login">
 	<img src="img/koperasi.png" 
-      width="350px"height="100px"><br>
+      width="150px"height="100px">
 		<p class="tulisan_login">Silahkan login</p>
-
 		<form>
-			
 			<label><i class="fas fa-user"></i>&nbsp;Username</label>
 			<input type="text" name="username" class="form_login" placeholder="Username">
-
 			<label><i class="fas fa-lock"></i>&nbsp;Password</label>
 			<input type="text" name="password" class="form_login" placeholder="Password">
-
 			<i class="fas fa-sign-in"></i> <input type="submit" class="tombol_login" value="MASUK">
-
-			<br/>
-			<br/>
 		</form>
 		
 	</div>

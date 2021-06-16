@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.nav{
+  text-align: center;
+  font-family: fantasy;
+  width:auto;
+  height: 90px;
+  font-size: 24px;
+  color: white;
+}
+.nav ul{
+  background: #6f7070;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 100%;
+  padding: 0 20px;
+}
+.content{
+  background: #1d2222;
+  width:auto;
+  height: 555px;
+  color:white;
+  font-size: 20px;
+}
+
+.nav ul li{
+  float: left;
+}
+.nav ul li:hover{
+  background: #202020;
+}
+.nav ul li:hover a{
+  color: show;
+}
+.nav ul li a{
+  display: block;
+  padding: 16px;
+  color: grey;
+  text-decoration: none;
+}
