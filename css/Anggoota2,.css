@@ -11,25 +11,41 @@
   color: white;
 }
 .nav ul{
-  background: #6f7070;
+  background: #3c8d5b;
   list-style: none;
   position: relative;
   display: inline-table;
   width: 100%;
-  padding: 0 20px;
 }
 .content{
-  background: #1d2222;
-  width:auto;
-  height: 555px;
+  background: #5a8686;
+  width:100%;
+  height: 557px;
   color:white;
   font-size: 20px;
 }
+article {
+  position: fixed;
+  float:left;
+  height: 300px;
+  width: 1347px;
+  background-color:rgb(84, 107, 112)
+}
+input.search{
+  width: 100px;
+  height: 40px;
+}
+input{
+  width: 100px;
+  height: 50px;
+}
+form{
+  margin:auto;
+  float: left;
+
+}
 .nav ul li{
   float: left;
-}
-.nav ul li:hover{
-  background: #202020;
 }
 .nav ul li:hover a{
   color: show;
@@ -37,6 +53,6 @@
 .nav ul li a{
   display: block;
   padding: 16px;
-  color: grey;
+  color: rgb(214, 210, 210);
   text-decoration: none;
 }
