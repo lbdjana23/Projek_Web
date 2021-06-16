@@ -23,7 +23,7 @@
       <header>
         <br><div class="bottom">Koperasi Simpan Pinjam</div>
       </header>
-      <br><hr align="left" width="100%" height="1px" color="white" size="1"><br>Selamat datang di simpan pinjam</h>
+      <br><hr align="left" width="100%" height="1px" color="white" size="1"><br> Selamat datang di simpan pinjam</h>
     </div>
     <div class="footer"></div>
 
