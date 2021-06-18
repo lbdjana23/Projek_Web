@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Dashboard</title>
-  <link rel="stylesheet" type="text/css" href="css/dashhboard.!2.css">
+    <title>Pengaturan</title>
+    <link rel="stylesheet" type="text/css" href="css/pengaturann.css">
   <script src="https://kit.fontawesome.com/7441b34165.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="menu" align="center">
+<div id="menu" align="center">
       <ul>
         <li><br>&nbsp;&nbsp;KSP</a></i>&nbsp;&nbsp;
         <li class="utama"><a href="anggota.php"><i class="far fa-user"></i>&nbsp;&nbsp;Anggota</a></i>&nbsp;&nbsp;
@@ -32,12 +32,13 @@
     <div class="sidebar"></div>
     <div class="content">
       <header align="left">
-        <br><div class="bottom">&nbsp;&nbsp;&nbsp;&nbsp;Koperasi Simpan Pinjam</div>
+        <br><div class="bottom">&nbsp;Pengaturan</div>
       </header>
-      <br><hr align="left" width="100%" height="1px" color="white" size="1"><br> &nbsp;Selamat datang di simpan pinjam</h>
+      <br><hr align="left" width="100%" height="0,4px" color="white" size="1"><br>
     </div>
+    <form>
+        
+    </form>
     <div class="footer"></div>
-
-  
 </body>
 </html>

@@ -10,8 +10,6 @@
 	<h1 align="center">Login <br>Simpan Pinjam</h1>
 
 	<div class="kotak_login" align="center">
-	<img src="img/koperasi.png" 
-      width="150px"height="100px">
 	  <form>
                 <fieldset align="center">
                     <legend align="center">Silahkan Login</legend>
