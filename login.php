@@ -4,6 +4,7 @@
 	<title>Login</title>
 	<script src="https://kit.fontawesome.com/7441b34165.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/loginn.css">
+	
 </head>
 <body>
 <form class="box" action="dashboard.php" method="post">

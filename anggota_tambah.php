@@ -3,7 +3,6 @@
 <head>
     <title>Pengaturan</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap/Bootstrapp_..css">
-
   <script src="https://kit.fontawesome.com/7441b34165.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -54,15 +53,29 @@
     <div class="sidebar"></div>
     <div class="content">
       <header align="left">
-        <br><div class="bottom" align="center">&nbsp;Koperasi Simpan Pinjam</div>
+        <br><div class="bottom">&nbsp;TambahAnggota</div>
       </header>
       <br><hr align="left" width="100%" height="0,4px" color="white" size="1"><br>
-      <header align="left">
-        <br><div class="bottom" align="left">&nbsp;Selamat Datang</div>
-      </header>
     </div>
-    <form>
-        
+    <form id="form">
+    <table>
+    <tr><td>Nama Anggota</td> <td></td> <td><input type="text" name="nama" id="nama"></td></tr>
+    <tr><td>Jenis Kelamin</td> 
+          <option value="B">Laki Laki</option>
+          <option value="C">Perempuan</option>
+         </select></td>
+    </tr>
+    <tr><td>Alamat</td> <td>:</td> <td><input type="text" name="ttl"></td></tr>
+    <tr><td>KOta</td> <td>:</td> <td><input type="text" name="telepon"></td></tr>
+    <tr><td>Telpon</td> <td>:</td> <td><input type="text" name="email"></td></tr>
+    <tr><td>Pesan</td> <td>:</td> <td><textarea name="message" rows="5" cols="30"></textarea></td></tr>
+    <tr><td>Kepengurusan</td>
+          <option value="B">Bukan Pengurus</option>
+          <option value="C">Pengurus</option>
+         </select></td>
+    </tr>
+    <tr><td colspan=2></td> <td><input type="simpan" value="Simpan"></td></tr>            
+ </table>
     </form>
     <div class="footer"></div>
 </body>
